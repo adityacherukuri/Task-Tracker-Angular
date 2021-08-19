@@ -1,0 +1,23 @@
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a:link {
+  text-decoration: none;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+footer nav a.router-link-active {
+  color: green;
+}
